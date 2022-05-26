@@ -1,4 +1,25 @@
+.bigCounter div {
+    font-size: 60px;
+    background-color: black;
+    line-height: 60px;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border: 10px solid grey;
+    margin: 10px;
+}
+.bigCounter{
+    display: flex;
+    margin-left: 33%;
+    margin-right: 40%;
+    text-align: center;
+    background-color: grey;
+    padding: 20px;
+}
 
+.bigCounter :only-child{
+    margin: 10px;
+}
 /* 
 
     You can write your own styles here...
